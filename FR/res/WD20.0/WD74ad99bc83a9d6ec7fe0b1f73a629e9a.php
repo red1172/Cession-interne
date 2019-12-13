@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 IHM/Champ/Calendrier/IVueChampCalendrier.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ define('MODEAFFICHAGE_INVALIDE',-1); define('MODEAFFICHAGE_JOURS',0); define('nCHANGEMOIS_SANSUSER', 0x00); define('nCHANGEMOIS_SUIVANTUSER', 0x01); define('nCHANGEMOIS_PRECEDENTUSER', 0x02); define('nCHANGEMOIS_AUJOURDHUI', 0x03); define('nCHANGEMOIS_CHOIXMOIS', 0x04); define('nCHANGEMOIS_CODE', 0x05); define('nCHANGEMOIS_CLAVIER', 0x06); ?>

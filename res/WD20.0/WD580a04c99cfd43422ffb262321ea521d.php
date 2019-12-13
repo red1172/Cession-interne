@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 IHM/Champ/Liste/Table/Colonne/ColonneMonetaire.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ if (!defined('__INC__IHM/Champ/Liste/Table/Colonne/ColonneNumerique.php')) { define('__INC__IHM/Champ/Liste/Table/Colonne/ColonneNumerique.php',true); include_once(WB_INCLUDE_PATH.'WD65f654d44745e524587b98cd7af02c62.php'); } if (!defined('__INC__IHM/Champ/Saisie/SaisieMonetaire.php')) { define('__INC__IHM/Champ/Saisie/SaisieMonetaire.php',true); include_once(WB_INCLUDE_PATH.'WDbd1e3ffde2f4a3bc6c64307b6b84b83c.php'); } class CColonneMonetaire extends CColonneNumerique { var $m_cDevise = null; function CColonneMonetaire($Nom, $T, $Indice, $cDevise = DEVISE_EURO) { $Champ = new CSaisieMonetaire($cDevise); parent::CColonneFormat($Champ, $Nom, $T, $Indice); } function F65b10405($cDevise) { $this->ChampFormat->m_cDevise = $cDevise; } function& GetType() { return getRef(20005); } } ?>

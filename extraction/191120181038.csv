@@ -1,0 +1,4 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+14005470;SUCRE 1KG                     ;100.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;RASSOULI;;;19/11/2018 ;10:35:27
+14000945;MAIZENA 100 GRS               ;12.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;RASSOULI;;;19/11/2018 ;10:35:50
+14002822;LAIT EN POUDRE 500GR          ;12.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;RASSOULI;;;19/11/2018 ;10:36:19

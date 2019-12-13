@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 FMK/Compat/array_udiff.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ function Fde4bc40f() { $args = func_get_args(); if (count($args) < 3) { user_error('Wrong parameter count for array_udiff()', E_USER_WARNING); return; } $compare_func = array_pop($args); if (!is_callable($compare_func)) { if (is_array($compare_func)) { $compare_func = $compare_func[0] . '::' . $compare_func[1]; } user_error('array_udiff() Not a valid callback ' . $compare_func, E_USER_WARNING); return; } $cnt = count($args); for ($i = 0; $i < $cnt; $i++) { if (!is_array($args[$i])) { user_error('array_udiff() Argument #' . ($i + 1). ' is not an array', E_USER_WARNING); return; } } $diff = array (); foreach ($args[0] as $key => $value) { for ($i = 1; $i < $cnt; $i++) { foreach ($args[$i] as $cmp_value) { $result = call_user_func($compare_func, $value, $cmp_value); if ($result === 0) { continue 3; } } } $diff[$key] = $value; } return $diff; } if (!function_exists('array_udiff')) { function array_udiff() { $args = func_get_args(); return call_user_func_array('php_compat_array_udiff', $args); } } ?>

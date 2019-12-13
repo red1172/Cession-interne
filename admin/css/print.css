@@ -1,0 +1,36 @@
+﻿#r,#recherche, #nav_profil, #nav, form, title,select
+{
+	display:none;
+}
+
+input {
+
+	display : none;
+
+}
+
+
+title{
+
+	display : none;
+
+}
+
+table {
+
+	orphans:15 ;
+	widows:15 ;	
+
+}
+h2{
+	background: #787878;
+	border : 1px solid #000;
+	}
+h3{
+	margin-top: 20px;
+	background: #787878;
+	border : 1px solid #000;
+	line-height : normal;
+
+	}
+

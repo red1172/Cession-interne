@@ -1,0 +1,8 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+14003383;SACHET CARRE 1KG  CHAMSI      ;45.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:50:26
+14002081;HUILE OLEOR 5L               ;6.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:50:57
+22000839;Olives denoyautees coupees    ;12.000;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:51:39
+22000260;CLEMENTINE                    ;1.164;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:52:38
+22000271;FRAISE 1CAT LOCAL             ;1.134;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:52:58
+22000167;RAISIN RED GLOBE LOCAL        ;1.042;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:53:13
+22000139;CITRON VERT LOCAL             ;1.008;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;ELSALGER1;;;06/02/2018 ;11:53:35

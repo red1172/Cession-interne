@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 FMK/Dessin/Style.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ define('FMK_Dessin_Style',true); if (!defined('__INC__FMK/Dessin/Couleur.php')) { define('__INC__FMK/Dessin/Couleur.php',true); include_once(WB_INCLUDE_PATH.'WD2521e084cbaf10ef8d5f4ede4dc6baa2.php'); } class FMK_Dessin_Style { var $Couleur; var $CouleurFond; var $CouleurInitiale; var $CouleurFondInitiale; function FMK_Dessin_Style($dwCoul = -1, $dwCoulFond = -1) { $this->Couleur = F5bfcd185($dwCoul ); $this->CouleurFond = F5bfcd185($dwCoulFond ); $this->CouleurInitiale = F5bfcd185($dwCoul ); $this->CouleurFondInitiale = F5bfcd185($dwCoulFond ); } function SetCouleur($dwCoul) { if ($dwCoul == iCouleurDefaut) { $this->Couleur = $this->CouleurInitiale; } else { $this->Couleur = F5bfcd185($dwCoul); } } function SetCouleurFond($dwCoul) { if ($dwCoul == iCouleurDefaut) { $this->CouleurFond = $this->CouleurFondInitiale; } else { $this->CouleurFond = F5bfcd185($dwCoul); } } function& GetCouleur() { return $this->Couleur; } function& GetCouleurFond() { return $this->CouleurFond; } } ?>

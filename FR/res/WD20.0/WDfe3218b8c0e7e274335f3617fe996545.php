@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 FMK/PostGet.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ define("FMK_PostGet",true); if (!defined('__INC__FMK/Chaine.php')) { define('__INC__FMK/Chaine.php',true); include_once(WB_INCLUDE_PATH.'WD55acb2e708e26f23cb8956cd93e98123.php'); } if (!defined('__INC__FMK/Tableau.php')) { define('__INC__FMK/Tableau.php',true); include_once(WB_INCLUDE_PATH.'WDa8a47db63a35400f63385c7a68aa8d08.php'); } function F19b65b78() { $SCRIPT_PARAM = F8bc25231(); if (ini_get('magic_quotes_gpc')==1) { $SCRIPT_PARAM = Fe8415a13($SCRIPT_PARAM); } if ( !UNICODE_PAGE_UTF8) { $SCRIPT_PARAM = array_map('_cp1252_utf8_to_iso',$SCRIPT_PARAM); } return $SCRIPT_PARAM; } function F8bc25231() { $tabMerge = (!isset($_POST)) ? null : array_map( 'Fcab655af',$_POST); if ((!isset($_GET)) || (($nGet=count($_GET))==0)) return $_POST; if (!isset($tabMerge)) return $_GET; $tabKeysGET = array_keys($_GET); for($i=0; $i<$nGet; $i++) { $key = $tabKeysGET[$i]; if (!array_key_exists($key,$_POST)) { $tabMerge[$key ] = $_GET[ $key ]; } } return $tabMerge; } ?>

@@ -1,0 +1,9 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+11001522;simple 02 rouleaux            ;16.000;DROGUERIE                     ;11;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;28/11/2018 ;08:56:28
+11003796;ESSUIE-TOUT   COTEX   MEGA 1=4;6.000;DROGUERIE                     ;11;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;28/11/2018 ;08:57:15
+11004079;ARDIS LIQ V MANGUE PECHE 5L   ;3.000;DROGUERIE                     ;11;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;28/11/2018 ;09:15:49
+22000271;FRAISE 1CAT LOCAL             ;2.712;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;CHERGUI;;;28/11/2018 ;11:31:48
+14002081;HUILE OLEOR 5L               ;4.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;CHERGUI;;;28/11/2018 ;11:56:58
+14004749;SEL DE TABLE IODE 1KG         ;12.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;CHERGUI;;;28/11/2018 ;11:57:09
+22000437;ANIS VERT G                   ;5.000;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;CHERGUI;;;28/11/2018 ;12:07:44
+22000433;GRAINS DE SESAME BLANC        ;15.000;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;CHERGUI;;;28/11/2018 ;12:08:05

@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 IHM/Champ/Liste/Table/Colonne/ColonneHeure.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ if (!defined('__INC__IHM/Champ/Liste/Table/Colonne/ColonneFormat.php')) { define('__INC__IHM/Champ/Liste/Table/Colonne/ColonneFormat.php',true); include_once(WB_INCLUDE_PATH.'WD83320623580f978b3720e2e0174b6318.php'); } if (!defined('__INC__IHM/Champ/Saisie/SaisieHeure.php')) { define('__INC__IHM/Champ/Saisie/SaisieHeure.php',true); include_once(WB_INCLUDE_PATH.'WD9316700885da11f0124fef6a69e0e404.php'); } class CColonneHeure extends CColonneFormat { function CColonneHeure($Nom, $T, $Indice) { $Champ = new CSaisieHeure(); parent::CColonneFormat($Champ, $Nom, $T, $Indice); } function Fa19e8373($Valeur) { $Champ = $this->ChampFormat; if (ctype_digit($Valeur)) { $Champ->F37bb1c9f($Valeur); $Valeur = $Champ->GetValeurAffichee(); } return parent::Fa19e8373($Valeur); } function& GetType() { return getRef(20003); } } ?>

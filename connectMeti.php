@@ -1,0 +1,7 @@
+﻿<?php
+
+	
+	$conn = oci_connect('hyp010', 'ATTENT1', '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.20.3.41)(PORT=1521)) (CONNECT_DATA=(SERVER=DEDICATED) (SERVICE_NAME = ME01)))');
+
+
+?>

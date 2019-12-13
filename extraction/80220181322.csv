@@ -1,0 +1,12 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+30007756;PILE DURACELL BASIC AA4       ;1.000;BRICOLAGE                     ;30;MOYENS GENERAUX ALGER;99;Auto-consommation;ELSALGER1;;;08/02/2018 ;10:09:24
+14010564;SACHET LOYA 2KG               ;4.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;12:08:35
+14002081;HUILE OLEOR 5L               ;32.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;12:00:19
+10002306;EAU MINERAL ALMA 5L           ;8.000;BOISSONS                      ;10;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:59:54
+10002489;EAU PLATE MOUZAIA 6.5L BIDON  ;10.000;BOISSONS                      ;10;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:59:33
+14003501;FARINE LA BELLE 1KG           ;4.000;EPICERIE                      ;14;;;Cession interne;ELSALGER1;;;08/02/2018 ;11:58:13
+14009452;FARINE SUP SAFINA 10KG        ;1.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:57:39
+14003377;SACHET CARRE 1KG              ;1.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:56:12
+14005470;SUCRE 1KG                     ;6.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:55:29
+14005471;SUCRE 5KG                     ;1.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;11:54:38
+14017223;SEMOULE MOYENNE EXTRA 1KG     ;5.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;ELSALGER1;;;08/02/2018 ;12:09:11

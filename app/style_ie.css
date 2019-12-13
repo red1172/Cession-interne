@@ -1,0 +1,41 @@
+﻿
+
+/*------------------------------ECART--------------------------------------------*/
+
+
+
+section {
+	width:950px;
+	margin:auto;
+	margin-top:-50px;
+}
+
+
+article h2{
+	margin-left:20px;
+}
+
+
+#cal_ecart{
+	margin-top:20px;
+	width:300px;
+	display: inline-block;
+	margin-left:330px;
+	margin-right:200px;
+}
+
+#cal_ecart table{
+	border:2px solid #000;
+	border-collapse:collapse;
+	
+}
+
+#cal_ecart table td{
+	border:1px solid #000;
+	width:auto;
+}
+ 
+ #cal_ecart table th{
+	border:1px solid #000;
+	width:auto;
+}

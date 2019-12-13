@@ -1,0 +1,4 @@
+AuthUserFile /var/www/html/web/cession/admin/.htpasswd 
+AuthName "ADMIN ONLY" 
+AuthType Basic
+require valid-user

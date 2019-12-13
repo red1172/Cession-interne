@@ -1,0 +1,8 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+14003383;SACHET CARRE 1KG  CHAMSI      ;15.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;CHERGUI;;;25/07/2018 ;10:59:38
+14016079;ANANAS GULA 850G              ;6.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;CHERGUI;;;25/07/2018 ;10:59:52
+14014387;DEMI PECHE SIROP LE GOUT 820G ;6.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;CHERGUI;;;25/07/2018 ;11:00:05
+22000839;Olives denoyautees coupees    ;6.000;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;CHERGUI;;;25/07/2018 ;11:00:34
+22000092;TOMATE RONDE 55/65            ;0.692;FRUITS ET LEGUMES             ;22;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;25/07/2018 ;11:01:36
+22000093;AVOCAT  IMPORTATION           ;0.834;FRUITS ET LEGUMES             ;22;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;25/07/2018 ;11:01:58
+30000092;MULTIPRISES 4P BMS 3M         ;1.000;BRICOLAGE                     ;30;MOYENS GENERAUX ALGER;99;Auto-consommation;CHERGUI;;;25/07/2018 ;11:03:07

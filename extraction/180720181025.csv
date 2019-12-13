@@ -1,0 +1,5 @@
+Article;Désignation;Qtite;Vendeur;R_vendeur;Acheteur;R_acheteur;Type_Op;Utilisateur;dpr;pmp;DATE;HEURE
+22000437;ANIS VERT G                   ;13.415;FRUITS ET LEGUMES             ;22;BOULANGERIE;23;Cession interne;OUALI;;;18/07/2018 ;09:15:30
+14018530;AROME VANILLE 4% ALICE 1KG    ;15.000;EPICERIE                      ;14;BOULANGERIE;23;Cession interne;OUALI;;;18/07/2018 ;09:16:31
+15004633;FLEURIAL 250 GRS BARQUETTE    ;64.000;P.L.S.                        ;15;BOULANGERIE;23;Cession interne;OUALI;;;18/07/2018 ;09:17:07
+11001531;INDUSTRIEL 02 ROULEAUX        ;12.000;DROGUERIE                     ;11;MOYENS GENERAUX ALGER;99;Auto-consommation;OUALI;;;18/07/2018 ;09:18:03

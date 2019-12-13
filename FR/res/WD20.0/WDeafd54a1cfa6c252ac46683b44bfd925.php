@@ -1,0 +1,5 @@
+<?php
+//20.0.56.0 TYPE/HF.php GF 
+//VersionVI: 30F200066p
+//(c) 2005-2012 PC SOFT  - Release
+ if (!defined('__INC__TYPE/Modele.php')) { define('__INC__TYPE/Modele.php',true); include_once(WB_INCLUDE_PATH.'WD6ee9539c0ad66df976b95a68703645fb.php'); } if (!defined('__INC__HF.php')) { define('__INC__HF.php',true); include_once(WB_INCLUDE_PATH.'WD6ef6924761651b3f9c7b8c4893efd570.php'); } class CSourceDonnees extends CTypeComparable { var $bSourceDonnees = true; var $bEstUneRequete = false; function CSourceDonnees($Valeur = '') { if (is_array($Valeur)) { parent::CTypeAvecPropriete($Valeur[0]); } else { parent::CTypeAvecPropriete($Valeur); } } function F9d1a8478() { return 'CSourceDonnees'; } function& F1e21db15() { $t = TYPEWL_SOURCEDONNEES; return $t; } function& operateurSub( $clNomRubrique ) { $sNomRubrique = VersChaine($clNomRubrique); $pclRub =& GetRubrique($this->m_Valeur,$sNomRubrique); if (!isset($pclRub)) { return parent::getProp($sNomRubrique); } return $pclRub; } } ?>
